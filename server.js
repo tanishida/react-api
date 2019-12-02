@@ -8,12 +8,14 @@ app.use(multer().none()); // multerでブラウザから送信されたデータ
 const messageList = [];
 
 app.get('/api/v1/list', (req, res) => {
+    res.header('Content-Type', 'application/json; charset=utf-8')
     console.log('list: ' + JSON.stringify(messageList));
     res.json(messageList);
 });
 
 app.post('/api/v1/add', (req, res) => {
     // クライアントからの送信データを取得する
+    console.log(req.body);
     const name = req.body.name;
     const message = req.body.value;
 
