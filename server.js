@@ -15,13 +15,13 @@ const ALLOWED_METHODS = [
 ];
 
 const ALLOWED_ORIGINS = [
-    'http://localhost:3000',
-    'http://localhost:8000'
+    'http://localhost:3000''
 ];
 
 // レスポンスHeaderを組み立てる
 app.use((req, res, next) => {
     const origin = req.headers.origin;
+    console.log(origin);
     if(ALLOWED_ORIGINS.indexOf(req.headers.origin) > -1) {
         res.cookie('example', Math.random().toString(), {maxAge: 86400, httpOnly: true});
         res.setHeader('Access-Control-Allow-Origin', origin);
