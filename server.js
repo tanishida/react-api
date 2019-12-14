@@ -15,7 +15,7 @@ const ALLOWED_METHODS = [
 ];
 
 const ALLOWED_ORIGINS = [
-    'http://localhost:3000''
+    'http://localhost:3000'
 ];
 
 // レスポンスHeaderを組み立てる
