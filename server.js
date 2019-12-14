@@ -4,7 +4,33 @@ const uuidv4 = require('uuid/v4'); // uuidモジュールを読み込む
 
 const app = express(); // expressアプリを生成する
 app.use(multer().none()); // multerでブラウザから送信されたデータを解釈する
+const ALLOWED_METHODS = [
+    'GET',
+    'POST',
+    'PUT',
+    'PATCH',
+    'DELETE',
+    'HEAD',
+    'OPTIONS'
+];
 
+const ALLOWED_ORIGINS = [
+    'http://localhost:3000',
+    'http://localhost:8000'
+];
+
+// レスポンスHeaderを組み立てる
+app.use((req, res, next) => {
+    const origin = req.headers.origin;
+    if(ALLOWED_ORIGINS.indexOf(req.headers.origin) > -1) {
+        res.cookie('example', Math.random().toString(), {maxAge: 86400, httpOnly: true});
+        res.setHeader('Access-Control-Allow-Origin', origin);
+        res.setHeader('Access-Control-Allow-Methods', ALLOWED_METHODS.join(','));
+        res.setHeader('Access-Control-Allow-Headers', 'Content-type,Accept,X-Custom-Header');
+    }
+
+    next();
+});
 const messageList = [];
 
 app.get('/api/v1/list', (req, res) => {
