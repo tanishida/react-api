@@ -16,7 +16,6 @@ const ALLOWED_METHODS = [
 const FILE_PATH = `./message/message.json`;
 let messageList = require(FILE_PATH);;
 
-
 // レスポンスHeaderを組み立てる
 app.use((req, res, next) => {
     const origin = req.headers.origin;
