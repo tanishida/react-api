@@ -1,5 +1,6 @@
 const express = require('express'); // expressモジュールを読み込む
 const multer = require('multer'); // multerモジュールを読み込む
+const uuidv4 = require('uuid/v4'); // uuidモジュールを読み込む
 const fs = require('fs');
 
 const app = express(); // expressアプリを生成する
@@ -15,8 +16,11 @@ const ALLOWED_METHODS = [
 ];
 const FILE_PATH = `./message/message.json`;
 const GOTANDA_FILE_PATH = `./gotanda/gotanda.json`;
+const PASSWORD_FILE_PATH = `./gotanda/password.json`;
+
 let messageList = require(FILE_PATH);
 let gotandaList = require(GOTANDA_FILE_PATH);
+let passwordLidt = require(PASSWORD_FILE_PATH);
 
 
 // レスポンスHeaderを組み立てる
@@ -50,15 +54,23 @@ app.get('/api/v1/list', (req, res) => {
 });
 
 app.post('/api/v1/addGotanda', (req, res) => {
+    const id = uuidv4();
     const gotandaRegistItem = {
         handleName: req.body.handleName,
         shopName: req.body.shopName,
         date: req.body.date,
         radio: req.body.radio,
-        comment: req.body.comment
+        comment: req.body.comment,
+        id
     };
+    const passwordRegistItem = {
+        id,
+        password: req.body.password
+    }
     gotandaList.unshift(gotandaRegistItem);
+    passwordLidt.unshift(passwordRegistItem);
     fs.writeFile(GOTANDA_FILE_PATH, JSON.stringify(gotandaList));
+    fs.writeFile(PASSWORD_FILE_PATH, JSON.stringify(passwordLidt));
     res.json(require(GOTANDA_FILE_PATH));
 });
 
