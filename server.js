@@ -42,7 +42,12 @@ app.post('/api/v1/add', (req, res) => {
         value: message
     };
     messageList.unshift(messageItem);
-    fs.writeFile(FILE_PATH, JSON.stringify(messageList));
+    fs.writeFile(FILE_PATH, JSON.stringify(messageList), err => {
+        if (err) {
+            console.log('メッセージ投稿エラー');
+            throw err;
+        }
+    });
     console.log('Add: ' + require(FILE_PATH));
     res.json(require(FILE_PATH));
 });
@@ -69,8 +74,18 @@ app.post('/api/v1/addGotanda', (req, res) => {
     }
     gotandaList.unshift(gotandaRegistItem);
     passwordLidt.unshift(passwordRegistItem);
-    fs.writeFile(GOTANDA_FILE_PATH, JSON.stringify(gotandaList));
-    fs.writeFile(PASSWORD_FILE_PATH, JSON.stringify(passwordLidt));
+    fs.writeFile(GOTANDA_FILE_PATH, JSON.stringify(gotandaList), err => {
+        if (err) {
+            console.log('入力情報登録エラー');
+            throw err;
+        }
+    });
+    fs.writeFile(PASSWORD_FILE_PATH, JSON.stringify(passwordLidt), err => {
+        if (err) {
+            console.log('パスワード登録エラー');
+            throw err;
+        }
+    });
     res.json(require(GOTANDA_FILE_PATH));
 });
 
