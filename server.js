@@ -1,9 +1,9 @@
-const express = require('express'); // expressモジュールを読み込む
+const app = require('express')();
+const PORT = process.env.PORT || 8000;
 const multer = require('multer'); // multerモジュールを読み込む
 const uuidv4 = require('uuid/v4'); // uuidモジュールを読み込む
 const fs = require('fs');
 
-const app = express(); // expressアプリを生成する
 app.use(multer().none()); // multerでブラウザから送信されたデータを解釈する
 const ALLOWED_METHODS = [
     'GET',
@@ -94,7 +94,17 @@ app.get('/api/v1/listGotanda', (req, res) => {
     res.json(require(GOTANDA_FILE_PATH));
 });
 
-// ポート8000でサーバを立てる
-app.listen(8000, () => {
-    console.log('Listening on port 8000');
-});
+app.get('/status', (req, res) => {
+    res.json({
+      status: 'ok',
+      statusCode: 200,
+    })
+  });
+  
+  app.get('*', (req, res) => {
+    res.json({
+      message: 'Express on Unubo Cloud',
+    })
+  });
+  
+  app.listen(PORT, () => console.log(`> Ready on http://localhost:${PORT}`));
