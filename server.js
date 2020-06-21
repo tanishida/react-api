@@ -17,10 +17,12 @@ const ALLOWED_METHODS = [
 const FILE_PATH = `./message/message.json`;
 const GOTANDA_FILE_PATH = `./gotanda/gotanda.json`;
 const PASSWORD_FILE_PATH = `./gotanda/password.json`;
+const BOARD_GAME_FILE_PATH = `./boardGame/boardGameList.json`;
 
 let messageList = require(FILE_PATH);
 let gotandaList = require(GOTANDA_FILE_PATH);
 let passwordLidt = require(PASSWORD_FILE_PATH);
+let boardGameList = require(BOARD_GAME_FILE_PATH);
 
 
 // レスポンスHeaderを組み立てる
@@ -100,11 +102,37 @@ app.get('/status', (req, res) => {
       statusCode: 200,
     })
   });
-  
-  app.get('*', (req, res) => {
+
+app.post('/api/v1/add-board-game', (req, res) => {
+    const id = uuidv4();
+    const boadGameRegistItem = {
+        time: req.body.time,
+        name: req.body.name,
+        kibo: req.body.kibo,
+        playTime: req.body.playTime,
+        price: req.body.price,
+        count: req.body.count,
+        id
+    };
+    boardGameList.unshift(boadGameRegistItem);
+    fs.writeFile(BOARD_GAME_FILE_PATH, JSON.stringify(boardGameList), err => {
+        if (err) {
+            console.log('ボードゲーム登録エラー');
+            throw err;
+        }
+    });
+    res.json(require(BOARD_GAME_FILE_PATH));
+});
+
+app.get('/api/v1/board-game-list', (req, res) => {
+    res.header('Content-Type', 'application/json; charset=utf-8')
+    res.json(require(BOARD_GAME_FILE_PATH));
+});
+
+app.get('*', (req, res) => {
     res.json({
-      message: 'Express on Unubo Cloud',
+        message: 'Express on Unubo Cloud',
     })
-  });
+});
   
-  app.listen(PORT, () => console.log(`> Ready on http://localhost:${PORT}`));
+app.listen(PORT, () => console.log(`> Ready on http://localhost:${PORT}`));
