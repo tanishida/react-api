@@ -112,6 +112,7 @@ app.post('/api/v1/add-board-game', (req, res) => {
         playTime: req.body.playTime,
         price: req.body.price,
         count: req.body.count,
+        detail: req.body.detail,
         id
     };
     boardGameList.unshift(boadGameRegistItem);
@@ -127,6 +128,32 @@ app.post('/api/v1/add-board-game', (req, res) => {
 app.get('/api/v1/board-game-list', (req, res) => {
     res.header('Content-Type', 'application/json; charset=utf-8')
     res.json(require(BOARD_GAME_FILE_PATH));
+});
+
+app.put('/api/v1/board-game-list/:id', (req, res) => {
+    // URLの:idと同じIDを持つ項目を検索
+    const index = boardGameList.findIndex((item) => item.id === req.params.id);
+
+    // カウント更新の場合
+    if(index >= 0 && req.body.type === 'count') {
+        const item = boardGameList[index];
+        if (req.body.counterType === 'plus') {
+            item.count = Number(++item.count).toString();
+            console.log('Edit:count lus ' + JSON.stringify(item));
+        } else {
+            item.count = Number(--item.count).toString();
+            console.log('Edit:count minus ' + JSON.stringify(item));
+        }
+    }
+    // 詳細更新の場合
+    if(index >= 0 && req.body.type === 'detail') {
+        const item = boardGameList[index];
+        console.log(req.body.editDetail);
+        item.detail = req.body.editDetail;
+        console.log(item.detail);
+        console.log('Edit:detail ' + JSON.stringify(item));
+    }
+    res.sendStatus(200);
 });
 
 app.get('*', (req, res) => {
