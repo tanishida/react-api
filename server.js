@@ -18,11 +18,13 @@ const FILE_PATH = `./message/message.json`;
 const GOTANDA_FILE_PATH = `./gotanda/gotanda.json`;
 const PASSWORD_FILE_PATH = `./gotanda/password.json`;
 const BOARD_GAME_FILE_PATH = `./boardGame/boardGameList.json`;
+const DOMINION_FILE_PATH = `./dominion/dominion.json`;
 
 let messageList = require(FILE_PATH);
 let gotandaList = require(GOTANDA_FILE_PATH);
 let passwordLidt = require(PASSWORD_FILE_PATH);
 let boardGameList = require(BOARD_GAME_FILE_PATH);
+let dominionList = require(DOMINION_FILE_PATH);
 
 
 // レスポンスHeaderを組み立てる
@@ -96,13 +98,6 @@ app.get('/api/v1/listGotanda', (req, res) => {
     res.json(require(GOTANDA_FILE_PATH));
 });
 
-app.get('/status', (req, res) => {
-    res.json({
-      status: 'ok',
-      statusCode: 200,
-    })
-  });
-
 app.post('/api/v1/add-board-game', (req, res) => {
     const id = uuidv4();
     const boadGameRegistItem = {
@@ -156,9 +151,72 @@ app.put('/api/v1/board-game-list/:id', (req, res) => {
     res.sendStatus(200);
 });
 
+app.post('/api/v1/dominion', (req, res) => {
+    let supplyList = [];
+    let nonSupplyList = [];
+    let returnSupply = [];
+    // スタンダード版が選択されていた場合、
+    if (req.body.standard) {
+        dominionList.standard.cardList.forEach(a => {
+            supplyList.push(
+                {
+                    "name": a.name,
+                    "series": "基本",
+                    "type": a.type,
+                    "type2": a.type2,
+                    "color": a.color,
+                    "color2": a.color2,
+                    "sort": a.sort,
+                    "random": Math.floor(Math.random()*10000)
+                }
+            )
+        })
+    }
+    // 陰謀版が選択されていた場合、
+    if (req.body.intrigue) {
+        dominionList.intrigue.cardList.forEach(a => {
+            supplyList.push(
+                {
+                    "name": a.name,
+                    "series": "陰謀",
+                    "type": a.type,
+                    "type2": a.type2,
+                    "color": a.color,
+                    "color2": a.color2,
+                    "sort": a.sort,
+                    "random": Math.floor(Math.random()*10000)
+                }
+            )
+        })
+    }
+    // 対象のカードを好順でソートして、１０件を配列に格納
+    supplyList
+    .sort((a, b) => {
+        return a.random - b.random;
+    })
+    .forEach((a, index) => {
+        if (index > 9) {
+            return;
+        }
+        returnSupply.push(
+            {
+                "name": a.name,
+                "series": a.series,
+                "type": a.type,
+                "type2": a.type2,
+                "color": a.color,
+                "color2": a.color2,
+                "sort": a.sort
+            }
+        )
+    });
+    console.log(returnSupply);
+    res.json(returnSupply);
+});
+
 app.get('*', (req, res) => {
     res.json({
-        message: 'Express on Unubo Cloud',
+        message: '/api/v1/board-game-list',
     })
 });
   
