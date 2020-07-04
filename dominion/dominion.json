@@ -19,10 +19,10 @@
             },
             {
                 "name": "堀",
-                "type": "アクション",
-                "type2": "リアクション",
-                "color": "#fff",
-                "color2": "#9999ff",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
                 "sort": 1
             },
             {
@@ -115,16 +115,16 @@
             },
             {
                 "name": "民兵",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
                 "sort": 1
             },
             {
                 "name": "役人",
-                "type": "アクション",
-                "type2": "アタック",
+                "type": "アタック",
+                "type2": "",
                 "color": "#ff9999",
                 "color2": "#fff",
                 "sort": 1
@@ -202,18 +202,18 @@
             },
             {
                 "name": "魔女",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
                 "sort": 1
             },
             {
                 "name": "職人",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
                 "sort": 1
             }
         ]
@@ -278,10 +278,10 @@
             },
             {
                 "name": "詐欺師",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
                 "sort": 2
             },
             {
@@ -334,18 +334,10 @@
             },
             {
                 "name": "外交官",
-                "type": "アクション",
-                "type2": "リアクション",
-                "color": "#fff",
-                "color2": "#9999ff",
-                "sort": 2
-            },
-            {
-                "name": "役人",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
                 "sort": 2
             },
             {
@@ -390,26 +382,26 @@
             },
             {
                 "name": "拷問人",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
                 "sort": 2
             },
             {
                 "name": "寵臣",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
                 "sort": 2
             },
             {
                 "name": "身代わり",
-                "type": "アクション",
-                "type2": "アタック",
-                "color": "#fff",
-                "color2": "#ff9999",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
                 "sort": 2
             },
             {
@@ -439,39 +431,3852 @@
         ]
     },
     "seaside": {
-
+        "cardList": [
+            {
+                "name": "原住民の村",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "真珠採り",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "抑留",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "停泊所",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "灯台",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "倉庫",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "密輸人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "見張り",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "大使",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "漁村",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "航海士",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "宝の地図",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "引揚水夫",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "海の妖婆",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "海賊船",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "巾着切り",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "隊商",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "島",
+                "type": "アクション",
+                "type2": "勝利点",
+                "color": "#fff",
+                "color2": "#99ff99",
+                "sort": 3
+            },
+            {
+                "name": "探検家",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "バザー",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "宝物庫",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "幽霊船",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "前哨地",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "策士",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "商船",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            },
+            {
+                "name": "船着場",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 3
+            }
+        ]
     },
     "alchemy": {
-
+        "cardList": [
+            {
+                "name": "薬草商",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "弟子",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "変成",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "ぶどう園",
+                "type": "アクション",
+                "type2": "勝利点",
+                "color": "#99ff99",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "薬師",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "大学",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "念視の泉",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "錬金術師",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "使い魔",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "賢者の石",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "ゴーレム",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            },
+            {
+                "name": "支配",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 4
+            }
+        ],
+        "nonSupplyList": [
+            {
+                "name": "ポーション",
+                "type": "財宝",
+                "type2": "",
+                "type3": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 4
+            }
+        ]
     },
     "prosperity": {
-
+        "cardList": [
+            {
+                "name": "交易路",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "望楼",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "借金",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "記念碑",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "司教",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "労働者の村",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "護符",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "石切場",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "会計所",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "造幣所",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "都市",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "保管庫",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "大衆",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "香具師",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "玉璽",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "禁制品",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "投機",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "大市場",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "ならず者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "隠し財産",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "拡張",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "宮廷",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "鍛造",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "銀行",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "行商人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 5
+            }
+        ],
+        "nonSupplyList": [
+            {
+                "name": "白金貨",
+                "type": "財宝",
+                "type2": "",
+                "type3": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 5
+            },
+            {
+                "name": "植民地",
+                "type": "勝利点",
+                "type2": "",
+                "type3": "",
+                "color": "#99ff99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 5
+            }
+        ]
     },
     "cornucopia": {
-
+        "cardList": [
+            {
+                "name": "村落",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "移動動物園",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "占い師",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "再建",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "農村",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "馬上槍試合",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "魔女娘",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "馬商人",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "収穫",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "狩猟団",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "道化師",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "豊穣の角笛",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "品評会",
+                "type": "勝利点",
+                "type2": "",
+                "color": "#99ff99",
+                "color2": "#fff",
+                "sort": 6
+            }
+        ],
+        "nonSupplyList": [
+            {
+                "name": "王女",
+                "type": "アクション",
+                "type2": "報償",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "金貨袋",
+                "type": "アクション",
+                "type2": "報償",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "名馬",
+                "type": "アクション",
+                "type2": "報償",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "郎党",
+                "type": "アタック",
+                "type2": "報償",
+                "type3": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 6
+            },
+            {
+                "name": "王冠",
+                "type": "財宝",
+                "type2": "報償",
+                "type3": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 6
+            }
+        ]
     },
     "hinterlands": {
-
+        "cardList": [
+            {
+                "name": "岐路",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "公爵夫人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "愚者の黄金",
+                "type": "財宝",
+                "type2": "リアクション",
+                "color": "#ffff99",
+                "color2": "#9999ff",
+                "sort": 7
+            },
+            {
+                "name": "オアシス",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "開発",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "画策",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "神託",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "坑道",
+                "type": "勝利点",
+                "type2": "リアクション",
+                "color": "#99ff99",
+                "color2": "#9999ff",
+                "sort": 7
+            },
+            {
+                "name": "香辛料商人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "遊牧民の野営地",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "よろずや",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "義賊",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "交易人",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "シルクロード",
+                "type": "勝利点",
+                "type2": "",
+                "color": "#99ff99",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "街道",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "官吏",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "厩舎",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "大使館",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "地図職人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "値切り屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "宿屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "辺境伯",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "不正利得",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "埋蔵金",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "国境の村",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 7
+            },
+            {
+                "name": "農地",
+                "type": "勝利点",
+                "type2": "",
+                "color": "#99ff99",
+                "color2": "#fff",
+                "sort": 7
+            }
+        ]
     },
     "darkAges": {
-
+        "cardList": [
+            {
+                "name": "救貧院",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "従者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "浮浪者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "物乞い",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "隠遁者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "賢者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "採集者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "物置",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "浮浪児",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "青空市場",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "金物商",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "吟遊詩人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "行進",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "ゴミあさり",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "城塞",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "ネズミ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "武器庫",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "死の荷車",
+                "type": "アクション",
+                "type2": "略奪者",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "襲撃者",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "封土",
+                "type": "勝利点",
+                "type2": "",
+                "color": "#99ff99",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "屑屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "山賊の宿営地",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "建て直し",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "地下墓所",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "墓暴き",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "伯爵",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "はみだし者",
+                "type": "アクション",
+                "type2": "Command",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "秘術師",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "盗賊",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "略奪",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "狂信者",
+                "type": "アタック",
+                "type2": "略奪者",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "騎士",
+                "type": "アタック",
+                "type2": "騎士",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "偽造通貨",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "狩場",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "祭壇",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            }
+        ],
+        "nonSupplyList": [
+            {
+                "name": "狂人",
+                "type": "アクション",
+                "type2": "",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "傭兵",
+                "type": "アタック",
+                "type2": "",
+                "type3": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "略奪品",
+                "type": "財宝",
+                "type2": "",
+                "type3": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 8
+            }
+        ],
+        "selterList": [
+            {
+                "name": "共同墓地",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "草茂る屋敷",
+                "type": "勝利点",
+                "type2": "",
+                "color": "#99ff99",
+                "color2": "#fff",
+                "sort": 8
+            },
+            {
+                "name": "納屋",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 8
+            }
+        ],
+        "ruins": [
+            {
+                "name": "図書館跡地",
+                "type": "アクション",
+                "type2": "廃墟",
+                "color": "#fff",
+                "color2": "#CC9999",
+                "sort": 8
+            },
+            {
+                "name": "廃村",
+                "type": "アクション",
+                "type2": "廃墟",
+                "color": "#fff",
+                "color2": "#CC9999",
+                "sort": 8
+            },
+            {
+                "name": "市場跡地",
+                "type": "アクション",
+                "type2": "廃墟",
+                "color": "#fff",
+                "color2": "#CC9999",
+                "sort": 8
+            },
+            {
+                "name": "廃坑",
+                "type": "アクション",
+                "type2": "廃墟",
+                "color": "#fff",
+                "color2": "#CC9999",
+                "sort": 8
+            },
+            {
+                "name": "生存者",
+                "type": "アクション",
+                "type2": "廃墟",
+                "color": "#fff",
+                "color2": "#CC9999",
+                "sort": 8
+            }
+        ]
     },
     "guild": {
-
+        "cardList": [
+            {
+                "name": "蝋燭職人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "石工",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "医者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "名品",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "助言者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "広場",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "収税吏",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "伝令官",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "熟練工",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "商人ギルド",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "肉屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "パン屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 9
+            },
+            {
+                "name": "予言者",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 9
+            }
+        ]
     },
     "adventures": {
-
+        "cardList": [
+            {
+                "name": "倒壊",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "鼠取り",
+                "type": "リザーブ",
+                "type2": "",
+                "color": "#CCCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "法貨",
+                "type": "財宝",
+                "type2": "リザーブ",
+                "color": "#FFFF99",
+                "color2": "#CCCC99",
+                "sort": 10
+            },
+            {
+                "name": "地下牢",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "道具",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "魔除け",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "隊商の護衛",
+                "type": "持続",
+                "type2": "リアクション",
+                "color": "#FFCC99",
+                "color2": "#9999FF",
+                "sort": 10
+            },
+            {
+                "name": "案内人",
+                "type": "リザーブ",
+                "type2": "",
+                "color": "#CCCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "カササギ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "使者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "守銭奴",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "港町",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "山守",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "複製",
+                "type": "リザーブ",
+                "type2": "",
+                "color": "#CCCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "変容",
+                "type": "リザーブ",
+                "type2": "",
+                "color": "#CCCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "失われし都市",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "語り部",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "工匠",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "巨人",
+                "type": "アタック",
+                "type2": "",
+                "color": "#FF9999",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "沼の妖婆",
+                "type": "アタック",
+                "type2": "持続",
+                "color": "#FF9999",
+                "color2": "#FFCC99",
+                "sort": 10
+            },
+            {
+                "name": "呪いの森",
+                "type": "アタック",
+                "type2": "持続",
+                "color": "#FF9999",
+                "color2": "#FFCC99",
+                "sort": 10
+            },
+            {
+                "name": "橋の下のトロル",
+                "type": "アタック",
+                "type2": "持続",
+                "color": "#FF9999",
+                "color2": "#FFCC99",
+                "sort": 10
+            },
+            {
+                "name": "御料車",
+                "type": "リザーブ",
+                "type2": "",
+                "color": "#CCCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "ワイン商",
+                "type": "リザーブ",
+                "type2": "",
+                "color": "#CCCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "遠隔地",
+                "type": "リザーブ",
+                "type2": "勝利点",
+                "color": "#CCCC99",
+                "color2": "#99FF99",
+                "sort": 10
+            },
+            {
+                "name": "掘出物",
+                "type": "財宝",
+                "type2": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "遺物",
+                "type": "財宝",
+                "type2": "アタック",
+                "color": "#FFFF99",
+                "color2": "#FFCC99",
+                "sort": 10
+            },
+            {
+                "name": "雇人",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 10
+            }
+        ],
+        "traveler": [
+            {
+                "name": "騎士見習い↓",
+                "type": "",
+                "type2": "トラベラー",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "トレジャーハンター↓",
+                "type": "",
+                "type2": "トラベラー",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "ウォリアー↓",
+                "type": "アタック",
+                "type2": "トラベラー",
+                "color": "#FF9999",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "ヒーロー↓",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "チャンピオン",
+                "type": "持続",
+                "type2": "トラベラー",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "農民↓",
+                "type": "",
+                "type2": "トラベラー",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "兵士↓",
+                "type": "アタック",
+                "type2": "トラベラー",
+                "color": "#FF9999",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "脱走兵↓",
+                "type": "",
+                "type2": "トラベラー",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "門下生↓",
+                "type": "",
+                "type2": "トラベラー",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "教師",
+                "type": "リザーブ",
+                "type2": "",
+                "color": "#CCCC99",
+                "color2": "#fff",
+                "sort": 10
+            }
+        ],
+        "event": [
+            {
+                "name": "借入",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "探索",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "施し",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "保存",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "移動遊園地",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "偵察隊",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "焚火",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "探検",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "立案",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "渡し舟",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "使節団",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "巡礼",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "海路",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "奇襲",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "交易",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "舞踏会",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "失われた技術",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "鍛錬",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "相続",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            },
+            {
+                "name": "誘導",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 10
+            }
+        ]
     },
     "empires": {
-
+        "cardList": [
+            {
+                "name": "戦車競走",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "農家の市場",
+                "type": "アクション",
+                "type2": "集合",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "女魔術師",
+                "type": "アタック",
+                "type2": "持続",
+                "color": "#FF9999",
+                "color2": "#FFCC99",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "生贄",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "ヴィラ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "神殿",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "公共広場",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "庭師",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "ワイルドハント",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "軍団兵",
+                "type": "アタック",
+                "type2": "",
+                "color": "#FF9999",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "資料庫",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "御守り",
+                "type": "財宝",
+                "type2": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "元手",
+                "type": "財宝",
+                "type2": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "冠",
+                "type": "アクション",
+                "type2": "財宝",
+                "color": "#FFFF99",
+                "color2": "#FFFF99",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "技術者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "王室の鍛冶屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "市街",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "大君主",
+                "type": "アクション",
+                "type2": "Command",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            },
+            {
+                "name": "開拓者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": {
+                    "name": "└騒がしい村",
+                    "type": "アクション",
+                    "type2": "",
+                    "color": "#fff",
+                    "color2": "#fff"
+                },
+                "sort": 11
+            },
+            {
+                "name": "陣地",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": {
+                    "name": "└鹵獲品",
+                    "type": "財宝",
+                    "type2": "",
+                    "color": "#FFFF99",
+                    "color2": "#fff"
+                },
+                "sort": 11
+            },
+            {
+                "name": "パトリキ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": {
+                    "name": "└エンポリウム",
+                    "type": "アクション",
+                    "type2": "",
+                    "color": "#fff",
+                    "color2": "#fff"
+                },
+                "sort": 11
+            },
+            {
+                "name": "剣闘士",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "split": {
+                    "name": "└大金",
+                    "type": "財宝",
+                    "type2": "",
+                    "color": "#FFFF99",
+                    "color2": "#fff"
+                },
+                "sort": 11
+            },
+            {
+                "name": "投石機",
+                "type": "アタック",
+                "type2": "",
+                "color": "#FF9999",
+                "color2": "#fff",
+                "split": {
+                    "name": "└石",
+                    "type": "財宝",
+                    "type2": "",
+                    "color": "#FFFF99",
+                    "color2": "#fff"
+                },
+                "sort": 11
+            },
+            {
+                "name": "城",
+                "type": "勝利点",
+                "type2": "",
+                "color": "#99FF99",
+                "color2": "#fff",
+                "split": "",
+                "sort": 11
+            }
+        ],
+        "event": [
+            {
+                "name": "昇進",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "掘進",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "徴税",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "宴会",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "儀式",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "大地への塩まき",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "結婚式",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "意外な授かり物",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "征服",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "制圧",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "凱旋",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "寄付",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "併合",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 11
+            }
+        ],
+        "randmark": [
+            {
+                "name": "狼の巣",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "オベリスク",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "凱旋門",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "果樹園",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "壁",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "宮殿",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "汚された神殿",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "公会堂",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "山賊の砦",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "水道橋",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "戦場",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "塔",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "闘技場",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "峠",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "砦",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "博物館",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "噴水",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "墓標",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "迷宮",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "浴場",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            },
+            {
+                "name": "列柱",
+                "type": "ランドマーク",
+                "type2": "",
+                "color": "#66CC99",
+                "color2": "#fff",
+                "sort": 11
+            }
+        ]
     },
     "nocturne": {
-
+        "cardList": [
+            {
+                "name": "ドイルド",
+                "type": "アクション",
+                "type2": "幸運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "ピクシー",
+                "type": "アクション",
+                "type2": "幸運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "追跡者",
+                "type": "アクション",
+                "type2": "幸運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "修道院",
+                "type": "夜行",
+                "type2": "",
+                "color": "#333333",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "守護者",
+                "type": "夜行",
+                "type2": "持続",
+                "color": "#333333",
+                "color2": "#FFCC99",
+                "sort": 12
+            },
+            {
+                "name": "忠犬",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "愚者",
+                "type": "アクション",
+                "type2": "幸運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "レプラコーン",
+                "type": "アクション",
+                "type2": "幸運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "秘密の洞窟",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "取り替え子",
+                "type": "夜行",
+                "type2": "",
+                "color": "#333333",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "夜警",
+                "type": "夜行",
+                "type2": "",
+                "color": "#333333",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "ゴーストタウン",
+                "type": "夜行",
+                "type2": "持続",
+                "color": "#333333",
+                "color2": "#FFCC99",
+                "sort": 12
+            },
+            {
+                "name": "詩人",
+                "type": "アクション",
+                "type2": "幸運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "恵みの雨",
+                "type": "アクション",
+                "type2": "幸運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "コンクラーベ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "ネクロマンサー",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "羊飼い",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "暗躍者",
+                "type": "アタック",
+                "type2": "不運",
+                "color": "#FF9999",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "墓地",
+                "type": "勝利点",
+                "type2": "",
+                "color": "#99FF99",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "悪魔の工房",
+                "type": "夜行",
+                "type2": "",
+                "color": "#333333",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "悪魔祓い",
+                "type": "夜行",
+                "type2": "",
+                "color": "#333333",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "呪われた村",
+                "type": "アクション",
+                "type2": "不運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "プーカ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "聖なる木立ち",
+                "type": "アクション",
+                "type2": "不運",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "迫害者",
+                "type": "アタック",
+                "type2": "不運",
+                "color": "#FF9999",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "悲劇のヒーロー",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "人狼",
+                "type": "夜行アタック",
+                "type2": "不運",
+                "color": "#333333",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "吸血鬼",
+                "type": "アタック夜行",
+                "type2": "不運",
+                "color": "#333333",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "納骨堂",
+                "type": "夜行",
+                "type2": "持続",
+                "color": "#333333",
+                "color2": "#FF9999",
+                "sort": 12
+            },
+            {
+                "name": "悪人のアジト",
+                "type": "夜行",
+                "type2": "持続",
+                "color": "#333333",
+                "color2": "#FF9999",
+                "sort": 12
+            },
+            {
+                "name": "カブラー",
+                "type": "夜行",
+                "type2": "持続",
+                "color": "#333333",
+                "color2": "#FF9999",
+                "sort": 12
+            },
+            {
+                "name": "偶像",
+                "type": "財宝",
+                "type2": "幸運",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "夜襲",
+                "type": "夜行",
+                "type2": "持続",
+                "color": "#333333",
+                "color2": "#FF9999",
+                "sort": 12
+            }
+        ],
+        "nonSupplyList": [
+            {
+                "name": "ウィル・オ・ウィスプ",
+                "type": "アクション",
+                "type2": "精霊",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "願い",
+                "type": "アクション",
+                "type2": "",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "インプ",
+                "type": "アクション",
+                "type2": "精霊",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "コウモリ",
+                "type": "夜行",
+                "type2": "",
+                "type3": "",
+                "color": "#333333",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "ゾンビの弟子",
+                "type": "アクション",
+                "type2": "ゾンビ",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "ゾンビの石工",
+                "type": "アクション",
+                "type2": "ゾンビ",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "ゾンビの密偵",
+                "type": "アクション",
+                "type2": "ゾンビ",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            {
+                "name": "幽霊",
+                "type": "夜行",
+                "type2": "精霊",
+                "type3": "持続",
+                "color": "#333333",
+                "color2": "#fff",
+                "color3": "#FFCC99",
+                "sort": 12
+            }            
+        ],
+        "heirloom": {
+            "呪いの鏡": {
+                "name": "呪いの鏡",
+                "type": "財宝",
+                "type2": "家宝",
+                "type3": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            "魔法のランプ": {
+                "name": "魔法のランプ",
+                "type": "財宝",
+                "type2": "家宝",
+                "type3": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            "ヤギ": {
+                "name": "ヤギ",
+                "type": "財宝",
+                "type2": "家宝",
+                "type3": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            "牧草地": {
+                "name": "牧草地",
+                "type": "財宝",
+                "type2": "家宝",
+                "type3": "勝利点",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "color3": "#99FF99",
+                "sort": 12
+            },
+            "革袋": {
+                "name": "革袋",
+                "type": "財宝",
+                "type2": "家宝",
+                "type3": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            "幸運のコイン": {
+                "name": "幸運のコイン",
+                "type": "財宝",
+                "type2": "家宝",
+                "type3": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            },
+            "呪われた金貨": {
+                "name": "呪われた金貨",
+                "type": "財宝",
+                "type2": "家宝",
+                "type3": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 12
+            }
+        },
+        "blessing": [
+            {
+                "name": "大地の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "田畑の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "炎の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "森の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "月の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "山の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "川の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "海の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "空の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "太陽の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "沼の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            },
+            {
+                "name": "風の恵み",
+                "type": "祝福",
+                "color": "#FFFF33",
+                "sort": 12
+            }
+        ],
+        "curse": [
+            {
+                "name": "凶兆",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "幻惑",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "羨望",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "飢饉",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "恐怖",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "貪欲",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "憑依",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "蝗害",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "みじめな生活",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "疫病",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "貧困",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            },
+            {
+                "name": "戦争",
+                "type": "呪詛",
+                "color": "#CC00CC",
+                "sort": 12
+            }
+        ]
     },
     "renaissance": {
+        "cardList": [
+            {
+                "name": "国境警備隊",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "追従者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "ドゥカート金貨",
+                "type": "財宝",
+                "type2": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "劇団",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "実験",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "増築",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "貨物船",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "旗手",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "絹商人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "山村",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "司祭",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "根城",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "発明家",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "研究",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "パトロン",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999FF",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "学者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "剣客",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "出納官",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "先見者",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "彫刻家",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "徴募官",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "悪党",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "老魔女",
+                "type": "持続",
+                "type2": "",
+                "color": "#FFCC99",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "王笏",
+                "type": "財宝",
+                "type2": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "sort": 13
+            },
+            {
+                "name": "香辛料",
+                "type": "財宝",
+                "type2": "",
+                "color": "#FFFF99",
+                "color2": "#fff",
+                "sort": 13
+            }
+        ],
+        "project": [
+            {
+                "name": "大聖堂",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "下水道",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "城門",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "星図",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "野外劇",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "悪巧み",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "縁日",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "サイロ",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "探査",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "学園",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "艦隊",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "ギルド集会所",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "資本主義",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "道路網",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "ピアッツァ",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "技術革新",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "兵舎",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "輪作",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "運河",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            },
+            {
+                "name": "山砦",
+                "type": "プロジェクト",
+                "color": "#ff99ff",
+                "sort": 13
+            }
+        ]
 
     },
     "menagerie": {
-
+        "cardList": [
+            {
+                "name": "そり",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "そり",
+                "type": "アタック",
+                "type2": "リアクション",
+                "color": "#ff9999",
+                "color2": "#9999ff",
+                "sort": 14
+            },
+            {
+                "name": "配給品",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "ラクダの隊列",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "ヤギ飼い",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "がらくた",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "雪深い村",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "牧羊犬",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "備蓄品",
+                "type": "財宝",
+                "type2": "",
+                "color": "#ffff99",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "賞金稼ぎ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "騎兵隊",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "馬丁",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "旅籠",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "枢機卿",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "村有緑地",
+                "type": "持続",
+                "type2": "リアクション",
+                "color": "#ffcc99",
+                "color2": "#9999ff",
+                "sort": 14
+            },
+            {
+                "name": "強制退去",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "狩猟小屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "炉",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "貸し馬屋",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "パドック",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "聖域",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "魔女の集会",
+                "type": "アタック",
+                "type2": "",
+                "color": "#ff9999",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "艀",
+                "type": "持続",
+                "type2": "",
+                "color": "#ffcc99",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "首謀者",
+                "type": "持続",
+                "type2": "",
+                "color": "#ffcc99",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "門番",
+                "type": "持続",
+                "type2": "アタック",
+                "color": "#ffcc99",
+                "color2": "#ff9999",
+                "sort": 14
+            },
+            {
+                "name": "鷹匠",
+                "type": "リアクション",
+                "type2": "",
+                "color": "#9999ff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "漁師",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "デストリエ",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "行人",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "動物見本市",
+                "type": "アクション",
+                "type2": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "sort": 14
+            }
+        ],
+        "nonSupplyList": [
+            {
+                "name": "馬",
+                "type": "アクション",
+                "type2": "",
+                "type3": "",
+                "color": "#fff",
+                "color2": "#fff",
+                "color3": "#fff",
+                "sort": 14
+            }  
+        ],
+        "event": [
+            {
+                "name": "遅延",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "絶望",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "博打",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "追求",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "乗馬",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "苦労",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "増大",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "進軍",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "輸送",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "放逐",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "特価品",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "投資",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "今を生きる",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "商売",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "要求",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "暴走",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "刈り入れ",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "包領",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "同盟",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            },
+            {
+                "name": "植民",
+                "type": "イベント",
+                "type2": "",
+                "color": "#DDDDDD",
+                "color2": "#fff",
+                "sort": 14
+            }
+        ],
+        "way": [
+            {
+                "name": "チョウの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "ラクダの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "カメレオンの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "カエルの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "ヤギの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "馬の習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "モグラの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "サルの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "ハツカネズミの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "ラバの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "カワウソの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "フクロウの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "雄牛の習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "豚の習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "ドブネズミの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "アザラシの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "羊の習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "リスの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "ウミガメの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            },
+            {
+                "name": "ミミズの習性",
+                "type": "習性",
+                "color": "#99ffff",
+                "sort": 14
+            }
+        ]
     }
 }
